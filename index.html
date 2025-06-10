@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>數字排序</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="inputNum">
+            <label for="num">請輸入數字</label>
+            <input type="text" id="num" placeholder="可用空白或逗號(,)隔開">
+            <select name="" id="sortType">
+                <option value="up">升序</option>
+                <option value="down">降序</option>
+            </select>
+            <button onclick="start()">送出</button>
+        </div>
+        <div id="screen"></div>
+        <h2>數字排序工具</h2>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
